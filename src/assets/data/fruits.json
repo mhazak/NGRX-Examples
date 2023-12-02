@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Apple",
+    "taste": "Sweet",
+    "calories": 95,
+    "nutritions": {
+      "carbs": 25,
+      "fiber": 4,
+      "vitamins": [
+        {
+          "name": "A",
+          "amount": 1
+        },
+        {
+          "name": "C",
+          "amount": 7
+        }
+      ],
+      "minerals": [
+        { "name": "iron", "amount": 0.2 },
+        { "name": "potassium", "amount": 195 }
+      ]
+    },
+    "weight": 182,
+    "description": "Apples are not only delicious but also rich in dietary fiber, promoting digestive health. They can be eaten fresh, added to salads, or used in baking.",
+    "image_url": "https://example.com/apple.jpg"
+  },
+  {
+    "name": "Banana",
+    "taste": "Sweet",
+    "calories": 105,
+    "nutritions": {
+      "carbs": 27,
+      "fiber": 3,
+      "vitamins": [
+        {
+          "name": "B6",
+          "amount": 0.5
+        },
+        {
+          "name": "C",
+          "amount": 10
+        }
+      ],
+      "minerals": [
+        { "name": "potassium", "amount": 422 },
+        { "name": "manganese", "amount": 0.3 }
+      ]
+    },
+    "weight": 118,
+    "description": "Bananas are a quick and healthy snack, providing a good source of potassium. They can be eaten on their own, added to smoothies, or used in baking.",
+    "image_url": "https://example.com/banana.jpg"
+  },
+  {
+    "name": "Orange",
+    "taste": "Citrusy",
+    "calories": 62,
+    "nutritions": {
+      "carbs": 15,
+      "fiber": 3,
+      "vitamins": [
+        {
+          "name": "C",
+          "amount": 89
+        }
+      ],
+      "minerals": [
+        { "name": "calcium", "amount": 43 },
+        { "name": "potassium", "amount": 181 }
+      ]
+    },
+    "weight": 131,
+    "description": "Oranges are packed with vitamin C, supporting the immune system. Enjoy them fresh, juiced, or added to salads for a burst of citrus flavor.",
+    "image_url": "https://example.com/orange.jpg"
+  },
+  {
+    "name": "Grapes",
+    "taste": "Sweet",
+    "calories": 69,
+    "nutritions": {
+      "carbs": 18,
+      "fiber": 1,
+      "vitamins": [
+        {
+          "name": "K",
+          "amount": 22
+        },
+        {
+          "name": "C",
+          "amount": 3
+        }
+      ],
+      "minerals": [
+        { "name": "copper", "amount": 0.1 },
+        { "name": "potassium", "amount": 288 }
+      ]
+    },
+    "weight": 151,
+    "description": "Grapes are a tasty and convenient snack. They are rich in antioxidants and can be enjoyed fresh, added to fruit salads, or even juiced.",
+    "image_url": "https://example.com/grapes.jpg"
+  },
+  {
+    "name": "Strawberry",
+    "taste": "Sweet",
+    "calories": 4,
+    "nutritions": {
+      "carbs": 1,
+      "fiber": 1,
+      "vitamins": [
+        {
+          "name": "C",
+          "amount": 59
+        },
+        {
+          "name": "K",
+          "amount": 2
+        }
+      ],
+      "minerals": [
+        { "name": "manganese", "amount": 0.1 },
+        { "name": "potassium", "amount": 14 }
+      ]
+    },
+    "weight": 12,
+    "description": "Strawberries are not only delicious but also high in vitamin C. They can be enjoyed fresh, added to desserts, or blended into refreshing smoothies.",
+    "image_url": "https://example.com/strawberry.jpg"
+  },
+  {
+    "name": "Pineapple",
+    "taste": "Sweet and Tangy",
+    "calories": 50,
+    "nutritions": {
+      "carbs": 13,
+      "fiber": 1,
+      "vitamins": [
+        {
+          "name": "C",
+          "amount": 47
+        },
+        {
+          "name": "B6",
+          "amount": 0.1
+        }
+      ],
+      "minerals": [
+        { "name": "manganese", "amount": 0.9 },
+        { "name": "copper", "amount": 0.1 }
+      ]
+    },
+    "weight": 905,
+    "description": "Pineapple is a tropical fruit known for its sweet and tangy flavor. Enjoy it fresh, juiced, or as a delicious addition to fruit salads and desserts.",
+    "image_url": "https://example.com/pineapple.jpg"
+  },
+  {
+    "name": "Mango",
+    "taste": "Sweet",
+    "calories": 60,
+    "nutritions": {
+      "carbs": 15,
+      "fiber": 1.6,
+      "vitamins": [
+        {
+          "name": "A",
+          "amount": 54
+        },
+        {
+          "name": "C",
+          "amount": 60
+        }
+      ],
+      "minerals": [
+        { "name": "potassium", "amount": 168 },
+        { "name": "magnesium", "amount": 9 }
+      ]
+    },
+    "weight": 200,
+    "description": "Mango is a tropical delight, rich in vitamins A and C. Enjoy it fresh, blended into smoothies, or as a topping for yogurt and desserts.",
+    "image_url": "https://example.com/mango.jpg"
+  },
+  {
+    "name": "Watermelon",
+    "taste": "Sweet and Juicy",
+    "calories": 46,
+    "nutritions": {
+      "carbs": 11,
+      "fiber": 0.6,
+      "vitamins": [
+        {
+          "name": "A",
+          "amount": 569
+        },
+        {
+          "name": "C",
+          "amount": 13
+        }
+      ],
+      "minerals": [
+        { "name": "potassium", "amount": 170 },
+        { "name": "magnesium", "amount": 11 }
+      ]
+    },
+    "weight": 2860,
+    "description": "Watermelon is a refreshing and hydrating fruit, perfect for hot days. Enjoy it in slices, blend into a chilled smoothie, or add to fruit salads.",
+    "image_url": "https://example.com/watermelon.jpg"
+  },
+  {
+    "name": "Kiwi",
+    "taste": "Tangy and Sweet",
+    "calories": 61,
+    "nutritions": {
+      "carbs": 15,
+      "fiber": 3,
+      "vitamins": [
+        {
+          "name": "C",
+          "amount": 92
+        },
+        {
+          "name": "K",
+          "amount": 40
+        }
+      ],
+      "minerals": [
+        { "name": "potassium", "amount": 312 },
+        { "name": "copper", "amount": 0.1 }
+      ]
+    },
+    "weight": 100,
+    "description": "Kiwi is a small but powerful fruit, packed with vitamin C. Enjoy it peeled and sliced, or add to salads and desserts for a burst of flavor.",
+    "image_url": "https://example.com/kiwi.jpg"
+  },
+  {
+    "name": "Pomegranate",
+    "taste": "Sweet and Tart",
+    "calories": 83,
+    "nutritions": {
+      "carbs": 19,
+      "fiber": 4,
+      "vitamins": [
+        {
+          "name": "C",
+          "amount": 10
+        },
+        {
+          "name": "K",
+          "amount": 16
+        }
+      ],
+      "minerals": [
+        { "name": "potassium", "amount": 236 },
+        { "name": "copper", "amount": 0.2 }
+      ]
+    },
+    "weight": 282,
+    "description": "Pomegranate seeds are not only delicious but also rich in antioxidants. Enjoy them as a snack, add to salads, or use as a topping for yogurt.",
+    "image_url": "https://example.com/pomegranate.jpg"
+  }
+]

@@ -1,10 +1,11 @@
 import { createAction, props } from '@ngrx/store';
 import { Fruit } from 'src/app/models/fruit.type';
 
-// import { CustomQuery } from 'src/app/api/api-models/pagination';
-
 export enum FruitsActionType {
+  Init = '[Fruits Component] Initial Load',
   Load = '[Fruits Component] Load',
+  FruitLoadSuccess = '[Fruits Component] Load Success',
+  FruitLoadError = '[Fruits Component] Load Error',
   SearchFruits = '[Fruits Component] Search Fruits',
   UpdateFruits = '[Fruits Component] Update Fruits',
   CreateFruits = '[Fruits Component] Create Fruits',
@@ -16,51 +17,12 @@ export enum FruitsActionType {
   Selected = '[Fruits Page] Select',
   SubmitSuccess = '[Fruits API] Submit Success',
 }
-
-export const load = createAction(FruitsActionType.Load);
-// export const searchFruits = createAction(
-//   FruitsActionType.SearchFruits,
-//   // props<{ query: CustomQuery }>()
-// );
-
-// export const createFruits = createAction(
-//   FruitsActionType.CreateFruits,
-//   props<{ fruits: Fruits, ref: any }>()
-// );
-
-// export const actionFailure = createAction(
-//   FruitsActionType.ActionFailure,
-//   props<{ error: string }>()
-// );
-
-// export const actionSuccess = createAction(
-//   FruitsActionType.ActionSuccess,
-//   props<{ msg: string }>()
-// );
-
-// export const updateTotal = createAction(
-//   FruitsActionType.UpdateTotal,
-//   props<{ total: number }>()
-// );
-
-// export const loadSuccess = createAction(
-//   FruitsActionType.LoadSuccess,
-//   props<{ fruits: Fruit[] }>()
-// );
-
-// export const submitSuccess = createAction(
-//   FruitsActionType.SubmitSuccess,
-//   props<{ msg: string }>()
-// );
-
-// export const refresh = createAction(FruitsActionType.Refresh);
-
-// export const select = createAction(
-//   FruitsActionType.Selected,
-//   props<{ selectedFruitsId: string | number }>()
-// );
-
-// export const updateFruits = createAction(
-//   FruitsActionType.UpdateFruits,
-//   props<{ fruits: Fruit, ref: any }>()
-// );
+export const initialFruitLoad = createAction(FruitsActionType.Init);
+export const fruitsLoadSuccess = createAction(
+  FruitsActionType.FruitLoadSuccess,
+  props<{ fruits: Fruit[] }>()
+);
+export const fruitsLoadError = createAction(
+  FruitsActionType.FruitLoadError,
+  props<{ error: Error }>()
+);
