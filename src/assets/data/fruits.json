@@ -23,7 +23,7 @@
     },
     "weight": 182,
     "description": "Apples are not only delicious but also rich in dietary fiber, promoting digestive health. They can be eaten fresh, added to salads, or used in baking.",
-    "image_url": "https://example.com/apple.jpg"
+    "image_url": "apples.jpg"
   },
   {
     "name": "Banana",
@@ -49,7 +49,7 @@
     },
     "weight": 118,
     "description": "Bananas are a quick and healthy snack, providing a good source of potassium. They can be eaten on their own, added to smoothies, or used in baking.",
-    "image_url": "https://example.com/banana.jpg"
+    "image_url": "bananas.jpeg"
   },
   {
     "name": "Orange",
@@ -71,7 +71,7 @@
     },
     "weight": 131,
     "description": "Oranges are packed with vitamin C, supporting the immune system. Enjoy them fresh, juiced, or added to salads for a burst of citrus flavor.",
-    "image_url": "https://example.com/orange.jpg"
+    "image_url": "oranges.jpeg"
   },
   {
     "name": "Grapes",
@@ -97,7 +97,7 @@
     },
     "weight": 151,
     "description": "Grapes are a tasty and convenient snack. They are rich in antioxidants and can be enjoyed fresh, added to fruit salads, or even juiced.",
-    "image_url": "https://example.com/grapes.jpg"
+    "image_url": "grapes.jpeg"
   },
   {
     "name": "Strawberry",
@@ -123,7 +123,7 @@
     },
     "weight": 12,
     "description": "Strawberries are not only delicious but also high in vitamin C. They can be enjoyed fresh, added to desserts, or blended into refreshing smoothies.",
-    "image_url": "https://example.com/strawberry.jpg"
+    "image_url": "strawbery.jpeg"
   },
   {
     "name": "Pineapple",
@@ -149,7 +149,7 @@
     },
     "weight": 905,
     "description": "Pineapple is a tropical fruit known for its sweet and tangy flavor. Enjoy it fresh, juiced, or as a delicious addition to fruit salads and desserts.",
-    "image_url": "https://example.com/pineapple.jpg"
+    "image_url": "pineapple.jpeg"
   },
   {
     "name": "Mango",
@@ -175,7 +175,7 @@
     },
     "weight": 200,
     "description": "Mango is a tropical delight, rich in vitamins A and C. Enjoy it fresh, blended into smoothies, or as a topping for yogurt and desserts.",
-    "image_url": "https://example.com/mango.jpg"
+    "image_url": "mango.jpeg"
   },
   {
     "name": "Watermelon",
@@ -201,7 +201,7 @@
     },
     "weight": 2860,
     "description": "Watermelon is a refreshing and hydrating fruit, perfect for hot days. Enjoy it in slices, blend into a chilled smoothie, or add to fruit salads.",
-    "image_url": "https://example.com/watermelon.jpg"
+    "image_url": "watermelon.jpeg"
   },
   {
     "name": "Kiwi",
@@ -227,7 +227,7 @@
     },
     "weight": 100,
     "description": "Kiwi is a small but powerful fruit, packed with vitamin C. Enjoy it peeled and sliced, or add to salads and desserts for a burst of flavor.",
-    "image_url": "https://example.com/kiwi.jpg"
+    "image_url": "kiwi.jpeg"
   },
   {
     "name": "Pomegranate",
@@ -253,6 +253,6 @@
     },
     "weight": 282,
     "description": "Pomegranate seeds are not only delicious but also rich in antioxidants. Enjoy them as a snack, add to salads, or use as a topping for yogurt.",
-    "image_url": "https://example.com/pomegranate.jpg"
+    "image_url": "pomegranate.avif"
   }
 ]

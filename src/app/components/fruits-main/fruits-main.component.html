@@ -1,3 +1,5 @@
-<ng-container *ngFor="let fruit of fruits$ | async">
-  {{ fruit.name }}
-</ng-container>
+<section class="fruits">
+  <ng-container *ngFor="let fruit of fruits$ | async">
+    <app-fruit [fruit]="fruit"></app-fruit>
+  </ng-container>
+</section>

@@ -5,4 +5,5 @@ export type Fruit = {
   taste: string;
   calories: number;
   nutritions: Nutritions;
+  image_url: string;
 };

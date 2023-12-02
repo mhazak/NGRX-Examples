@@ -10,9 +10,10 @@ import { FruitsMainComponent } from './components/fruits-main/fruits-main.compon
 import { FuritsEffects } from './store/fruits/fruits.effects';
 import { fruitsReducer } from './store/fruits/fruits.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { FruitComponent } from './components/fruits-main/fruit/fruit.component';
 
 @NgModule({
-  declarations: [AppComponent, FruitsMainComponent],
+  declarations: [AppComponent, FruitsMainComponent, FruitComponent],
   imports: [
     HttpClientModule,
     BrowserModule,
